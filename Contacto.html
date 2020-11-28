@@ -4,7 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-             body{background-color: lightgreen}
+            body{background-color: lightgreen}
+            input{
+                text-decoration: none;
+                padding: 10px;
+                font-weight: 600;
+                font-size: 20px;
+                color: #ffffff;
+                background-color: #1883ba;
+                border-radius: 6px;
+                border: 2px solid #0016b0;
+            }
+            label{
+                padding: 10px;
+                font-weight: 600;
+                font-size: 20px;
+                color: black; 
+            }
         </style>
     </head>
     <body>
@@ -22,7 +38,7 @@
                 </div>
                 <div class="row">
                     <label class="required" for="message">ingresa mensaje:</label><br />
-                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br />
                     <span id="message_validation" class="error_message"></span>
                 </div>
                 <input id="submit_button" type="submit" value="enviar mensaje" />
