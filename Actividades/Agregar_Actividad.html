@@ -22,37 +22,41 @@
         <a href="../Contacto.html" class="navbar-brand">Contacto</a>
     </nav>
 
-<p>Agregar Nueva Actividad</p>
+    <p>Agregar Nueva Actividad</p>
 
-<form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Actividad</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Materia</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="inputAddress">Descripción</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="">
-    </div>
-    <div class="form-group">
-      <label for="inputAddress2">Instrucciones</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="">      
-    </div>
-    <div>
-        <label for="FechaLimite">Fecha limite</label>
-      <input type="date" name="cumpleanios" step="1" min="2020-01-01" max="2020-12-31" value="<?php echo date("Y-m-d")">
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Actividad</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Materia</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Descripción</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Instrucciones</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="">
+        </div>
+        <div>
+            <label for="FechaLimite">Fecha limite</label>
+            <input type="date" name="cumpleanios" step="1" min="2020-01-01" max="2020-12-31" value="<?php echo date("Y-m-d")">
     </div>
     <div></div>
+    <label for="FechaLimite">Subir Imagen</label>
     <input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif">
+    <label for="FechaLimite">Subir Archivos</label>
+    <input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif">
+</div>    
+</div>
+    
 
-    </div>
-    <div></div>
-    <button type="submit" class="btn btn-primary">Agregar</button>
+    <center><a href="../Actividades.html" class="btn btn-primary">Agregar</a></center>
   </form>
   
 
